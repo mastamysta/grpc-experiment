@@ -1,0 +1,12 @@
+service speedy
+{
+
+    rpc SayHello(str) returns(str) {}
+
+
+}
+
+message str
+{
+    required string msg = 1;
+}
